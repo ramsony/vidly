@@ -10,5 +10,5 @@ class Movie(models.Model):
     release_year = models.IntegerField()
     number_in_stock = models.FloatField()
     daily_rate = models.FloatField()
-    genre = models.ForeignKey(Genre, on_delete=models.CASCADE())
+    genre = models.ForeignKey(Genre, on_delete=models.CASCADE)
 
